@@ -46,4 +46,3 @@ jobs:
       - name: Build docs
         run: |
           hatch -v run docs:build
-
