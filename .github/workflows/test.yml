@@ -1,4 +1,4 @@
-name: Test
+name: Tests
 
 on:
   push:
@@ -32,7 +32,7 @@ jobs:
           python-version: ${{ matrix.python-version }}
       - name: Install Hatch
         run: pip install hatch
-      - name: Run fast tests
+      - name: Run tests
         run: hatch -v run test
 
 
