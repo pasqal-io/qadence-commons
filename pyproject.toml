@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "qadence-commons"
+name = "test-qadence-commons"
 description = "Python package that provides shared libraries for Qadence."
 readme = "README.md"
 requires-python = ">=3.9,<3.14"
