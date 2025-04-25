@@ -39,7 +39,7 @@ jobs:
       timeout-minutes: 5
       run: |
         VERSION=${GITHUB_REF#refs/tags/v}
-        until pip download test-qcommons==$VERSION
+        until pip download qadence-commons==$VERSION
         do
             echo "Failed to download from PyPI, will wait for upload and retry."
             sleep 1

@@ -3,12 +3,12 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "test-qcommons"
+name = "qadence-commons"
 description = "Python package that provides shared libraries for Qadence."
 readme = "README.md"
 requires-python = ">=3.9,<3.14"
 license = {text = "Apache 2.0"}
-version = "0.0.4"
+version = "0.0.5"
 keywords = ["quantum"]
 authors = [
   { name = "Mario Dagrada", email = "mario.dagrada@pasqal.com" },
